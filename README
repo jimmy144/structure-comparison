@@ -1,0 +1,54 @@
+----------------------
+Structure comparison (version 1.0)
+-----------------------
+
+1. Pairwise protein structure alignment or structure homolog search
+
+[Reference]
+--------------------------------------------------------
+Pandit, S B, Skolnick J. 2008. Fr-TM-align: A new protein 
+structural alignment method based on fragment alignments 
+and the TM-score. BMC bioinformatics. 9:531
+--------------------------------------------------------
+
+--------------------------------------------------------
+Sheng Wang, Jianzhu Ma, Jian Peng and Jinbo Xu.
+    PROTEIN STRUCTURE ALIGNMENT BEYOND SPATIAL PROXIMITY
+                     Scientific Reports, 3, 1448, (2013)
+--------------------------------------------------------
+
+
+2. Multiple protein structure alignment
+[Reference]
+------------------------------------------------------------
+Sheng Wang, Jian Peng and Jinbo Xu.
+ALIGNMENT OF DISTANTLY-RELATED PROTEIN STRUCTURES: ALGORITHM,
+                 BOUND AND IMPLICATIONS TO HOMOLOGY MODELING.
+                  Bioinformatics. 2011 Sep 15;27(18):2537-45
+------------------------------------------------------------
+
+
+------
+setup for structure homolog search
+------
+Enclosed in this package please find the script to download protein database from Protein Data Bank. Please do not delete or change this file.
+
+Note: If you just want to do pairwise or multiple structure alignment, you do not 
+have to download these databases, which are supposed to be used for only structure homolog search.
+You can also build your own database for structure homology search.
+
+
+-------------
+main programs
+-------------
+1. Pairwise structure alignment
+User choose one input file.pdb and one input known protein file.pdb
+
+2. Database search
+To run database search: use choose one input file and one input known protein folder
+
+
+--------
+examples for programs
+--------
+The result folder contain some test results
